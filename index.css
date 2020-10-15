@@ -2,9 +2,36 @@ body {
     
     display: flex;
     height: 100vh;
+
 }
 
-#right {
+.center {
+    display: inline; 
+    text-align: center;
+    background-color: rgb(148, 65, 65);
+    width: 40%;
+}
+
+
+ .left {
+    background-color: rgb(58, 49, 114);
+    width: 30%;
+    justify-content: left;
+    align-items: left;
+
+}
+
+.right {
+    background-color:rgb(58, 49, 114);
+    width: 30%;
     justify-content: right;
     align-items: right;
+} 
+
+.buttons {
+    width: 200px;
+    height: 70px;
+    padding: 20px;
 }
+
+
